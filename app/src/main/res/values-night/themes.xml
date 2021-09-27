@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GuessThePhrase" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/CeriseRed</item>
+        <item name="colorPrimaryVariant">@color/CeriseRed_dark</item>
+        <item name="colorOnPrimary">@color/Blackcurrant_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Rose</item>
+        <item name="colorSecondaryVariant">@color/Rose_dark</item>
+        <item name="colorOnSecondary">@color/Blackcurrant_dark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
