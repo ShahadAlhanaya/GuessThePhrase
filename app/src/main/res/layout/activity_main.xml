@@ -38,7 +38,16 @@
             android:textColor="@color/Concrete_light" />
 
         <TextView
-            android:id="@+id/remainingAttempts_textview"
+            android:id="@+id/bestScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Best Score: "
+            android:textAlignment="center"
+            android:textColor="@color/CeriseRed_dark" />
+
+        <TextView
+            android:id="@+id/guessedLetters_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -50,6 +59,7 @@
             android:id="@+id/messages_recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
 
     </LinearLayout>
 
